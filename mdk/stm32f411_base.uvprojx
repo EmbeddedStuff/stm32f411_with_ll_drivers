@@ -334,10 +334,10 @@
             <v6WtE>0</v6WtE>
             <v6Rtti>0</v6Rtti>
             <VariousControls>
-              <MiscControls>-DUSE_FULL_LL_DRIVER</MiscControls>
+              <MiscControls>-DUSE_FULL_LL_DRIVER -DSTM32F411xE</MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\Drivers\STM32F4xx_HAL_Driver\Inc</IncludePath>
+              <IncludePath>..\Drivers\STM32F4xx_HAL_Driver\Inc;..\include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -385,6 +385,21 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\source\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>serial_stdio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\serial_stdio.c</FilePath>
+            </File>
+            <File>
+              <FileName>hlld_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hlld_uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>hlld_uart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\include\hlld_uart.h</FilePath>
             </File>
           </Files>
         </Group>
