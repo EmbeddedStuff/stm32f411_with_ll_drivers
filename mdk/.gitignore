@@ -1,0 +1,4 @@
+*.uvguix.*
+Objects/
+Listings/
+DebugConfig/
